@@ -1,0 +1,17 @@
+.logo {
+    display: inline-flex;
+    color: #2196f3;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(28px / 24px);
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+    }
+}
+.logo__item___black {
+    color: #000000;
+}
+.logo__item___white {
+    color: №ffffff;
+}
