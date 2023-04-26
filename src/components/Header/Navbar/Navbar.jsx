@@ -1,6 +1,5 @@
 import styles from "./Navbar.module.scss";
-import Logo from "./Logo/Logo";
-import Address from "./Address/Address";
+import Logo from "../../shared/Logo/Logo";
 import Menu from "./Menu/Menu";
 
 const Navbar = () => {
@@ -9,7 +8,6 @@ const Navbar = () => {
             <Logo />
             <div className={styles.menu_container}>
                 <Menu />
-                <Address />
             </div>
         </nav>
     );
